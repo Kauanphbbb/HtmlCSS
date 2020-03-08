@@ -1,0 +1,80 @@
+/* TAGS */
+
+header {
+  background-color: aqua;
+  padding: 20px 0 40px 0;
+  height: 80px;
+}
+
+footer {
+  background-color: aqua;
+  text-align: center;
+  padding: 5px;
+}
+
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica, Arial;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 10px 0 0 0;
+  text-shadow: 1px 1px 1px #111111;
+}
+
+p {
+  margin: 15px 0 0 0;
+  color: paleturquoise;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px #111111;
+}
+
+/* IDS */
+
+#div_principal {
+  background-image: url("../IMG/city.jpg");
+  background-size: 100%;
+  min-height: 400px;
+  padding: 80px 0 0 0;
+  clear: both;
+}
+
+#logo {
+  float: left;
+}
+
+#menu {
+  float: right;
+  margin-top: 40px;
+}
+
+#menu a {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 62px 20px;
+  color: #111111;
+  text-shadow: 1px 1px 0px #111111;
+}
+
+#menu a:hover {
+  background-color: aquamarine;
+  color: blueviolet;
+}
+/* Class */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.efeito {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 80px 0 80px 0;
+}
